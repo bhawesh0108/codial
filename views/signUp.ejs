@@ -1,13 +1,28 @@
-<h2>
-    SIGN UP
-</h2>
-<DIV>
-    <form action='/users/create-contact' method="post">
-          <input type="text" placeholder="Enter Youe Name" name="name" required>
-         <input type="email" placeholder="Enter your Email" name="email" required>
-         <input type="password" placeholder="Enter Your Password" name="password" required>
-         <input type="password" placeholder="Confirm Password" name="confirmPassword" required>
-         <button type="submit">Create Account </button>
-        
-    </form>
-</DIV>
+<link rel="stylesheet" type="text/css" href="/css/sign-up.css">
+
+<div class="container-fluid" >
+
+<div class="row">
+
+    <div class="col-md-6 img-box">
+        <img src="/images/1.jpeg">
+
+    </div>
+    <div class="col-md-6 form-outer-box">
+        <h2>
+            SIGN UP
+        </h2>
+        <form action='/users/create-contact' method="post">
+              <input type="text" placeholder="Enter Your Name" name="name" required>
+             <input type="email" placeholder="Enter Your Email" name="email" required>
+             <input type="password" placeholder="Enter Your Password" name="password" required>
+             <input type="password" placeholder="Confirm Password" name="confirmPassword" required>
+             <button type="submit">Create Account </button>
+            
+        </form>
+    </div>
+
+</div>
+
+
+</div>

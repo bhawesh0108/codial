@@ -1,0 +1,28 @@
+ul{
+    list-style: none;
+    text-decoration: none;
+    display:flex;
+    flex-direction: row;
+}
+.header .navbar-brand{
+    color:azure !important;
+
+}
+
+.header-right{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    margin:5px;
+}
+.header-right a{
+   color:azure;
+  
+    text-decoration: none;
+}
+
+.header-right li{
+    padding:10px;
+    margin:5px;
+}
+
