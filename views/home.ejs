@@ -3,3 +3,44 @@
     <h1>
         Home page render..
     </h1>
+
+    <%if(locals.user){%>
+
+  
+
+    <section id="feed-post">
+        <h4>
+            POSTS
+        </h4>
+        <form action="/post/create-post" method="post">
+            <textarea name="content" cols="30" rows="3"></textarea>
+            <input type="submit" value="Post">
+
+        </form>
+
+    </section>
+
+    <% }%>
+
+    <section id="posts">
+        <ul>
+            <% for (p of posts) {%>
+            <li>
+                <p>
+                <%= p.content %>
+                <br>
+                <small>
+                    <%= p.user.name %>
+                </small>
+                </p>
+            </li>
+            <% } %>
+        </ul>
+       
+          
+     
+
+
+       
+
+    </section>

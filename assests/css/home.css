@@ -2,8 +2,13 @@ body{
     margin: 0 !important;
     text-align: center!important;
     background-color: black;
+    color:white;
 
 }
 ul{
     list-style: none;;
+}
+#posts ul{
+    display: flex;
+    flex-direction: column;
 }
